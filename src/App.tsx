@@ -15,10 +15,10 @@ export interface IState {
 function App() {
   const [people, setPeople] = useState<IState["people"]>([
     {
-      name: "LeBron James",
-      age: 36,
-      url: "https://busytape.com/wp-content/uploads/2020/03/Lebron-James.jpg",
-      note: "Allergic to staying on the same team",
+      name: "Rodgers Chayuga",
+      age: 32,
+      url: "https://media-exp1.licdn.com/dms/image/C4D03AQGDxMfCMhl4cA/profile-displayphoto-shrink_200_200/0/1623263549712?e=1640217600&v=beta&t=deCLUwauVMgbSezV3xC5PPRDke3BH-tEaCQdNe8Pflc",
+      note: "A clear prove and example of hard work and determination pays",
     },
   ]);
 
